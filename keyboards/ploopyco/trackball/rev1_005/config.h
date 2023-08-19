@@ -18,6 +18,9 @@
 
 #pragma once
 
+#define PLOOPY_DPI_OPTIONS { 800, 1000, 1400 }
+#define PLOOPY_DPI_DEFAULT 1
+
 // These pins are not broken out, and cannot be used normally.
 // They are set as output and pulled high, by default
 #define UNUSABLE_PINS \
